@@ -3,10 +3,10 @@
 import pandas as pd
 import joblib
 
-model_young = joblib.load(r"C:\Users\wakea\OneDrive\Documents\ML\app\artifacts\model_young.joblib")
-model_rest = joblib.load(r"C:\Users\wakea\OneDrive\Documents\ML\app\artifacts\model_rest.joblib")
-scaler_young = joblib.load(r"C:\Users\wakea\OneDrive\Documents\ML\app\artifacts\scaler_young.joblib")
-scaler_rest = joblib.load(r"C:\Users\wakea\OneDrive\Documents\ML\app\artifacts\scaler_rest.joblib")
+model_young = joblib.load(r"C:/Users/wakea/OneDrive/Documents/ML/app/artifacts/model_young.joblib")
+model_rest = joblib.load(r"C:/Users/wakea/OneDrive/Documents/ML/app/artifacts/model_rest.joblib")
+scaler_young = joblib.load(r"C:/Users/wakea/OneDrive/Documents/ML/app/artifacts/scaler_young.joblib")
+scaler_rest = joblib.load(r"C:/Users/wakea/OneDrive/Documents/ML/app/artifacts/scaler_rest.joblib")
 
 def calculate_normalized_risk(medical_history):
     risk_scores = {
